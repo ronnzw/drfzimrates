@@ -1,0 +1,24 @@
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env
+.env
+myvenv/
+venv/
+
+# Database
+db.sqlite3
+
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
