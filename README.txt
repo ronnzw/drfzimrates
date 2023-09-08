@@ -1,6 +1,7 @@
 # Zimbabwe Market Rates API
 
-[![Build Status](https://travis-ci.com/your-username/zim-market-rates-api.svg?branch=master)](https://travis-ci.com/your-username/zim-market-rates-api)
+
+
 
 This is a REST API built with Django REST framework that provides access to the latest market rates in Zimbabwe. You can use this API to get the exchange rates of various currencies, commodities and services in Zimbabwe.
 
