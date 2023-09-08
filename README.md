@@ -13,6 +13,8 @@ To install this project, you need to have Python and Pip installed on your syste
 cd zim-market-rates-api
 pip install -r requirements.txt
 python manage.py migrate
+```
+
 
 
 This will install the dependencies and create the database.
@@ -23,7 +25,7 @@ To start the server, run:
 
 ```bash
 python manage.py runserver
-
+```
 
 This will launch the server on http://localhost:8000.
 You can use any HTTP client to make requests to the API. The API supports the following endpoint:
@@ -47,7 +49,7 @@ The API uses JSON as the data format for both requests and responses. For exampl
     "created_on": "2023-09-08T17:45:58Z"
   }
 ]
-
+```
 
 
 ## License
