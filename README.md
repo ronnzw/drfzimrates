@@ -10,7 +10,7 @@ This is a REST API built with Django REST framework that provides access to the 
 To install this project, you need to have Python and Pip installed on your system. Then, clone this repository and run the following commands:
 
 ```bash
-cd zim-market-rates-api
+cd Zimrates
 pip install -r requirements.txt
 python manage.py migrate
 ```
@@ -63,3 +63,5 @@ This README file was generated based on the following sources:
 - [encode/django-rest-framework: Web APIs for Django. - GitHub](https://github.com/encode/django-rest-framework)
 - [REST API example application - GitHub: Let’s build from here](https://github.com/bbc/REST-API-example/blob/master/README.md)
 - [Working with Git and GitHub | Django documentation | Django](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/working-with-git/)
+
+

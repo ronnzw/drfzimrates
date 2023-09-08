@@ -29,7 +29,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','ronzw.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost','www.ronzw.pythonanywhere.com']
 
 
 # Application definition
