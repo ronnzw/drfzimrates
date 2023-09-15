@@ -3,7 +3,9 @@
 
 
 
-This is a REST API built with Django REST framework that provides access to the latest market rates in Zimbabwe. You can use this API to get the exchange rates of various currencies, commodities and services in Zimbabwe.
+This is a REST API built with Django REST framework that provides access to the latest market rates in Zimbabwe. You can use this API to get the exchange rates of various currencies, commodities and services in Zimbabwe. This is still work in process.
+
+We welcome contribution for more details read the contribute.md file for more details on how you can contribute.
 
 ## Installation
 
@@ -28,7 +30,10 @@ python manage.py runserver
 ```
 
 This will launch the server on http://localhost:8000.
-You can use any HTTP client to make requests to the API. The API supports the following endpoint:
+You can use any HTTP client to make requests to the API. 
+This API is facing one end meaning you can do `POST` or `PATCH` and this is by design.
+
+The API supports the following endpoint:
 
 - `GET /rates` - Returns a list of all available rates
 
@@ -55,6 +60,10 @@ The API uses JSON as the data format for both requests and responses. For exampl
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+## Disclaimer
+This learning project is for educational purposes only and is not intended to be used in production. It may contain errors or omissions. It not intended for us with Zimbabwe markets as the government has offical rates you can find [here](https://www.rbz.co.zw/index.php/13-daily-exchange-rates/16-rates).The authors of this project are not responsible for any damages or losses that may result from the use of this project.
 
 ## References
 
