@@ -22,3 +22,7 @@ db.sqlite3
 .vscode/
 .history/
 *.code-workspace
+
+# Testing
+.coverage
+htmlcov/
